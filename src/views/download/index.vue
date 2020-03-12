@@ -1,15 +1,15 @@
 <template>
-  <div id="announce">这是公告栏主页</div>
+  <div id="download">这是资料下载主页</div>
 </template>
 
 <script>
 export default {
-    name:"announce"
+    name:"download"
 }
 </script>
 
 <style lang="scss" scoped>
-#announce{
+#download{
 
 }
 </style>
