@@ -1,5 +1,5 @@
 """
-    @author: yu bin
+    @author: common
     @describe: 数据库模型文件
     @date: 2020/3/12
 """
