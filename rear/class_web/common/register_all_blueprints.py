@@ -1,7 +1,7 @@
 """
 注册全部路由函数
 """
-from rear.blueprints import test
+from class_web.blueprints import test
 
 
 def register_all_blueprints(app):
