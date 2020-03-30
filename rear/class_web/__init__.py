@@ -16,7 +16,7 @@ def make_app(config_name=None):
     if config_name is None:
         config_name = os.getenv('FLASK_CONFIG', 'development')
 
-    app = Flask('hitapply')
+    app = Flask(__name__)
     app.config.from_object(config[config_name])
 
     # 为app注册相关信息
